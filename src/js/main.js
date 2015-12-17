@@ -1,16 +1,3 @@
-
-// var classifier = module.exports();
-// classifier.learn('amazing, awesome movie!! Yeah!! Oh boy.', 'positive');
-// classifier.learn('Sweet, this is incredibly, amazing, perfect, great!!', 'positive');
-// classifier.learn('terrible, shitty thing. Damn. Sucks!!', 'negative');
-
-//var stateJson = classifier.toJson();
-//var revivedClassifier = module.exports.fromJson(stateJson);
-//revivedClassifier.learn('one, two, three, four, five, six, seven, eigth, nine, ten', 'numbers');
-
-//l = revivedClassifier.categorize(' one,  three, four');
-
-
 /*** Variáveis ***/
 var input_busca = document.querySelector('#busca');
 var select_classif = document.querySelector('#select_classif');
