@@ -2,6 +2,10 @@
 
 _Análise de sentimentos para o Twitter adaptável a diferentes domínios de problema_
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rafjaa/Social-Insights/master/tela.png" alt="Captura de tela" />
+</p>
+
 Trabalho prático final para o curso de __Técnicas e Tecnologias para o Desenvolvimento Front-End__ ministrado no Projeto Laboratório de Redes de Conhecimento do Instituto Federal do Sudeste de Minas Gerais, Câmpus Barbacena.
 
 __Proposta__: oferecer um sistema de classificação automática de _tweets_ em tempo real por meio de algoritmo de classificação bayesiano para auxílio na análise de tendências e em processos de tomada de decisão, que seja flexível e adaptável a diferentes domínios de problema.
