@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="theme-color" id="meta-theme" content="#0091ea">
+		<title>Social Insights</title>
+
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+	</head>
+	<body>
+		<nav id="nav">
+			<div>
+	            <p id="brand">
+	                Social Insights
+	            </p>
+	            <span id="classificadores">
+		            	<i class="material-icons" id="settings" title="Classificadores">settings</i>
+	            </span>
+	        </div>
+        </nav>
+
+		<main>
+			<input type="text" id="busca" value="Brasil" placeholder="Buscar">
+			<select id="select_classif">
+			</select>
+			<button id="btn_buscar">Buscar</button>
+
+			<section id="graficos">
+
+				<div id="analise">
+					<p class="titulo">Análise</p>
+
+					<canvas id="chart_analise"></canvas>
+
+					<p class="descricao">Distribuição dos tweets analisados automaticamente</p>
+				</div>
+
+				<div id="impacto">
+					<p class="titulo">Impacto</p>
+					
+					<canvas id="chart_impacto"></canvas>
+
+					<p class="descricao">Quantidade de retweets e número de seguidores por categoria</p>
+				</div>
+
+			</section>
+
+			<section id="resultados">
+			</section>
+		</main>
+
+		<script src="js/naive_bayes.js"></script>
+		<script src="js/Chart.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Roboto; }
+
+nav:before, nav:after {
+  display: table;
+  content: " ";
+  clear: both; }
+
+#nav {
+  text-align: center;
+  background-color: #0091ea;
+  padding: 25px;
+  font-size: 20px;
+  color: #fff;
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px; }
+  #nav div {
+    width: 800px;
+    margin: 0 auto; }
+    #nav div p#brand {
+      float: left;
+      cursor: pointer; }
+    #nav div #classificadores {
+      float: right;
+      font-size: 14px;
+      cursor: pointer; }
+      #nav div #classificadores span {
+        display: inline-block; }
+  #nav p#brand {
+    cursor: pointer; }
+
+main:before, main:after {
+  display: table;
+  content: " ";
+  clear: both; }
+
+main {
+  width: 800px;
+  margin: 0 auto; }
+  main #busca {
+    width: 560px;
+    padding: 10px;
+    color: #333; }
+  main #select_classif {
+    padding: 10px;
+    width: 150px; }
+  main #btn_buscar {
+    padding: 10px;
+    width: 80px;
+    cursor: pointer; }
+  main #resultados:before, main #resultados:after {
+    display: table;
+    content: " ";
+    clear: both; }
+  main section#resultados {
+    margin: 15px 0; }
+    main section#resultados #tweet {
+      margin: 10px 0;
+      padding: 15px;
+      border: solid 1px #ddd;
+      border-radius: 2px;
+      font-size: 13px;
+      padding-bottom: 35px; }
+      main section#resultados #tweet p {
+        margin-top: 10px; }
+      main section#resultados #tweet select {
+        margin-top: 0;
+        float: right; }
+  main canvas {
+    width: 360px;
+    height: 250px; }
+  main #graficos {
+    margin: 25px 0;
+    display: none; }
+    main #graficos div {
+      box-shadow: 0px 1px 15px #ddd;
+      border-radius: 2px;
+      padding: 15px; }
+    main #graficos .titulo {
+      font-size: 20px;
+      margin-bottom: 15px; }
+    main #graficos .descricao {
+      font-size: 13px;
+      text-align: center;
+      margin-top: 15px;
+      width: 360px;
+      color: #222; }
+    main #graficos #analise {
+      float: left; }
+    main #graficos #impacto {
+      float: right; }
+  main#m_classificadores p {
+    font-size: 13px;
+    margin-top: 15px; }
+  main#m_classificadores i {
+    color: #333;
+    cursor: pointer;
+    float: right; }
+  main#m_classificadores .titulo_c {
+    font-size: 20px; }
+  main#m_classificadores textarea, main#m_classificadores input {
+    display: block;
+    width: 800px;
+    margin: 5px 0 15px;
+    padding: 15px;
+    font-size: 14px; }
+  main#m_classificadores button {
+    padding: 10px 15px;
+    cursor: pointer; }
+  main#m_classificadores .b {
+    text-align: right; }
+  main#m_classificadores #dados_classificadores {
+    margin: 15px 0; }
+    main#m_classificadores #dados_classificadores div {
+      margin: 15px 0;
+      border: solid 1px #ddd;
+      border-radius: 2px;
+      padding: 15px; }
+      main#m_classificadores #dados_classificadores div p {
+        margin: 0; }
+      main#m_classificadores #dados_classificadores div .sent {
+        font-size: 14px;
+        margin-bottom: 5px; }
+      main#m_classificadores #dados_classificadores div .tam {
+        color: #222;
+        margin-bottom: 10px;
+        font-size: 11px; }
+      main#m_classificadores #dados_classificadores div .cat {
+        margin-bottom: 10px; }
