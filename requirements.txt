@@ -1,0 +1,9 @@
+# Python
+
+flask
+requests[security]
+python-twitter
+pymongo
+
+# DB
+mongodb
