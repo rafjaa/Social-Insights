@@ -66,12 +66,13 @@ main {
       border: solid 1px #ddd;
       border-radius: 2px;
       font-size: 13px;
-      padding-bottom: 35px; }
+      padding-bottom: 38px; }
       main section#resultados #tweet p {
         margin-top: 10px; }
       main section#resultados #tweet select {
         margin-top: 0;
-        float: right; }
+        float: right;
+        padding: 3px; }
   main canvas {
     width: 360px;
     height: 250px; }
