@@ -7,6 +7,8 @@ Trabalho prático final para o curso de __Técnicas e Tecnologias para o Desenvo
 __Tecnologias envolvidas__
 - Twitter API
 - HTML5
+- CSS3
+- SASS
 - LocalStorage
 - MongoDB
 - Python Flask
