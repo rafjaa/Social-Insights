@@ -11,13 +11,11 @@ var ctx_impacto = document.getElementById('chart_impacto').getContext("2d");
 var grafico_analise = null;
 var grafico_impacto = null;
 var atualiza_treinamento = null;
-var j = null;
-
 var CORES = ['#f78f38', '#ef3b2d', '#5e2c8d', '#bab732', '#f13d2f', '#32728b', '#016aae', '#019f91', '#f78f38', '#ef3b2d', '#5e2c8d', '#bab732', '#f13d2f', '#32728b'];
 
 /*** Funções ***/
 
-// AJAX com cahce transparente (opcional) via localStorage
+// AJAX com cache transparente (opcional) via localStorage
 function ajax(url, cache, callback){
     // Checa se já possui consulta em cache
     if(localStorage[url] && cache){
@@ -169,7 +167,6 @@ ajax('/api/mongodb/classifiers', false, function(resp_classif){
         var texto_tweet = select.dataset.text;
 
         classificadores[id_classif].learn(texto_tweet, nova_categoria);
-        j = classificadores[id_classif].toJson();
 
         //Persiste o novo treinamento
         ajax('/api/mongodb/classifier/update?nome=' + id_classif + '&dados=' + classificadores[id_classif].toJson(), false, function(resp_update){

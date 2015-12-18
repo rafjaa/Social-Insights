@@ -1,4 +1,4 @@
-// AJAX com cahce transparente (opcional) via localStorage
+// AJAX com cache transparente (opcional) via localStorage
 function ajax(url, cache, callback){
     // Checa se já possui consulta em cache
     if(localStorage[url] && cache){
@@ -36,10 +36,7 @@ var txt_categorias = document.querySelector('#txt_categorias');
 var btn_adicionar = document.querySelector('#btn_adicionar');
 
 // Obtém as informações sobre os classificadores
-ajax('/api/mongodb/classifiers/info', false, function(resp_classif){
-    console.log(resp_classif);
-
-    
+ajax('/api/mongodb/classifiers/info', false, function(resp_classif){    
 
     for(var c in resp_classif.info){
         var classif = resp_classif.info[c];

@@ -14,10 +14,10 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 # Dados para autenticação OAuth na API Twitter v1.1
-CONSUMER_KEY = 'PDJp3Rp6zGOMs1pq3d35aL0lf'
-CONSUMER_SECRET = '9OklpzVyMtrY5e0pwvQ0qtSDPv8fzUZ775CdP0ajwi3VpUhI14'
-ACCESS_TOKEN_KEY = '194807206-x3H4bzLeOtVh35t8smQAobspdU4Dcs4UxiOod8sL'
-ACCESS_TOKEN_SECRET = 'iImDE899l5ASwdHaeb26jUxgBvb2ZOU3UE9J7EZQOEcKI'
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
+ACCESS_TOKEN_KEY = ''
+ACCESS_TOKEN_SECRET = ''
 
 # Autenticação na API
 api = twitter.Api(
