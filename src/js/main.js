@@ -170,6 +170,8 @@ ajax('/api/mongodb/classifiers', false, function(resp_classif){
 
         //Persiste o novo treinamento
         ajax('/api/mongodb/classifier/update?nome=' + id_classif + '&dados=' + classificadores[id_classif].toJson(), false, function(resp_update){
+            // Atualiza os resultados
+            btn_buscar.onclick();
         });
     }
 
