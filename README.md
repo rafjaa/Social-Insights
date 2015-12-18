@@ -10,7 +10,7 @@ Trabalho prático final para o curso de __Técnicas e Tecnologias para o Desenvo
 
 __Proposta__: oferecer um sistema de classificação automática de _tweets_ em tempo real por meio de algoritmo de classificação bayesiano para auxílio na análise de tendências e em processos de tomada de decisão, que seja flexível e adaptável a diferentes domínios de problema.
 
-__Diferencial__: enquanto alguns sistemas similares na web realizam apenas a análise de sentimentos dos _tweets_ coletados (em sua maioria para o idoma inglês), este web app possibilita ao usuário criar e treinar seus próprios classificadores, de modo que a análise automática será baseada nas regras e categorias definidas pelo usuário.
+__Diferencial__: enquanto alguns sistemas similares na web realizam apenas a análise de sentimentos dos _tweets_ coletados (em sua maioria para o idoma inglês), este web app possibilita ao usuário criar e treinar seus próprios classificadores, de modo que a análise automática seja baseada nas regras e categorias definidas pelo usuário.
 
 __Tecnologias envolvidas__
 - Twitter API
